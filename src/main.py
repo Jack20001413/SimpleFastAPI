@@ -2,14 +2,9 @@ from fastapi import Depends, FastAPI, Response, status, HTTPException
 from . import model, schemas
 from .database import SessionLocal, engine
 from sqlalchemy.orm import Session
-from azure.appconfiguration.provider import load
-import os
 
 app = FastAPI()
 
-app_config_conn = os.environ.get("AZURE_APPCONFIG_CONNECTION_STRING")
-print(app_config_conn)
-# config = load(connection_string=app_config_conn)
 
 model.Base.metadata.create_all(engine)
 
