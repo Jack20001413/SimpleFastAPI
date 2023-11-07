@@ -2,7 +2,7 @@ FROM python:3.11
 
 WORKDIR /code
 
-ENV AZURE_APPCONFIG_CONNECTION_STRING="Endpoint=https://appconfig-test-rg.azconfig.io;Id=8emh;Secret=IT+giUCpEZDcCjUktSSpgrhhIYk0rVcO+BW2dQD6EM8="
+ENV AZURE_APPCONFIG_CONNECTION_STRING="Endpoint=https://demo-van-sea-ac.azconfig.io;Id=63Wy;Secret=PPpc0NRUm8P63p6BZcTmqzR66jc/ZpDvlo0iuzY+V0c="
 
 COPY requirements.txt .
 

@@ -1,1 +1,0 @@
-postgresql://postgres:p$ssw0rd@test-van-sea-postgresql.postgres.database.azure.com:5432/student
